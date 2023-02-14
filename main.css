@@ -1,0 +1,124 @@
+
+nav ul{
+    position:relative;
+    display:flex;
+    list-style: none;
+    width: 80%;
+    justify-content: end;
+}
+
+nav{
+    position: relative;
+    display:flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 80%;
+    z-index: 10;
+}
+nav ul li{
+    margin: 0 .5rem;
+}
+
+.contact{
+    display: flex;
+
+}
+
+header{
+    top:0;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+header h1{
+    align-items: center;
+    margin-left: .5rem;
+    font-size: 2rem;
+}
+
+.about{
+    position: relative;
+    display:grid;
+    width: 70%;
+    grid-template: 1fr / 1fr 1fr;
+    border-bottom: 1px solid lightslategray;
+}
+
+.aboutme{
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    align-items: stretch;
+}
+.aboutme p{
+    font-size: 1.25rem;
+}
+
+h2{
+font-size: 1.5rem;
+}
+
+.img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: stretch;
+
+}
+.img img{
+    max-width: 60%;
+    max-height: 60%;
+    border-radius: 15px;
+    margin-top: 1rem;
+}
+
+main{
+    width: 100x;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    top: 6rem;
+}
+
+.projects, .skills{
+    display: flex;
+    width:70%;
+    flex-direction: column;
+    justify-content: flex-start;
+    border-bottom:1px solid lightslategray;
+}
+
+.skills div img{
+    display: inline;
+    max-width: 10%;
+    max-height: 10%;
+}
+
+#tech{
+    display: none;
+}
+
+#finance{
+    display: none;
+}
+
+h3{
+    background-color: lightgray;
+    padding: .25rem;
+    border-radius: 5px;
+}
+
+h3:hover{
+    cursor: pointer;
+}
+
+
+
+
+
+
